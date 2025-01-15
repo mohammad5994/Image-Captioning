@@ -9,7 +9,7 @@ processor = AutoProcessor.from_pretrained("Salesforce/blip-image-captioning-base
 model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
 
 # URL of the page to scrape
-url = "https://en.wikipedia.org/wiki/IBM"
+url = "https://sv.wikipedia.org/wiki/Stockholm"
 # Download the page
 response = requests.get(url)
 # Parse the page with BeautifulSoup
