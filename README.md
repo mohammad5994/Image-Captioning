@@ -36,7 +36,7 @@ cd image-caption-generator
 2. Update the URL in the script to the webpage you want to scrape:
 
 ```python
-url = "https://en.wikipedia.org/wiki/IBM"
+url = "https://sv.wikipedia.org/wiki/Stockholm"
 ```
 
 3. Run the script:
